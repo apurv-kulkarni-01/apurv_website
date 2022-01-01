@@ -1,3 +1,5 @@
+@import "resources/theme.scss";
+
 html, body{
     background-color: #5CDB95;
     margin: 0px;
@@ -10,9 +12,26 @@ html, body{
     color: #EDF5E1;
     height: 100%;
 }
+
+.container-fluid{
+    padding: 1% 2%;
+}
+
+.nav-color{
+    color: #05386B;
+}
+.nav-link{
+    color: #05386B;
+}
+
+.navbar-toggler-icon{
+    background-color: red;
+    color: #05368B;
+}
+
 .intro{
     position: relative;
-    top: 35%;
+    top: 20%;
 }
 .apurv{
     height: 200px;

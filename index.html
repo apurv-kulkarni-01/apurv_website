@@ -23,22 +23,48 @@
 </head>
 <body>
   <div class="top-cont">
-      <div class="intro">
-          <h1>i'm, Apurv.</h1>
-          <h2>a programmer</h2>
-      </div>
+    <div class="container-fluid">
+
+      <!-- nav bar  -->
+      <nav class="navbar navbar-expand-lg nav-color bg-transparent">
+
+          <a class="navbar-brand" href="#my_intro">Apurv</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#myskills">My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactme">Contact me</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+    <div class="intro">
+        <h1>i'm, Apurv.</h1>
+        <h2>a programmer</h2>
+    </div>
   </div>
 
   <hr>
 
   <div class="middle-cont">
-    <div class="profile">
+    <div class="profile" id="my_intro">
       <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEDmA5FMNecLA/profile-displayphoto-shrink_400_400/0/1632377872259?e=1644451200&v=beta&t=ZO4OSFfuFRnyYaFPYGcZ7i-1LuZNRjwAqZYY2ZYHaJA" alt="Apurv's profile picture" class="apurv">
       <h2>Hello.</h2>
       <p class="para">Hey, glad you here! My name is Apurv Kulkarni and I am trying to make something out of my life. I am in my trying phase, whatever I have tried so far... my likings... my dislikings... you can find them on this website.</p>
     </div>
     <hr>
-    <div class="skills">
+    <div class="skills" id="myskills">
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="webd" src="https://media.giphy.com/media/lr1QZ7prMwwkqSSVLa/giphy.gif" alt="">
@@ -52,8 +78,10 @@
       </div>
     </div> 
   </div>
+
   <hr>
-  <div class="bottom-cont">
+
+  <div class="bottom-cont" id="contactme">
     <h2>Get in touch</h2>
     <h3>Want to discuss something?</h3>
     <p>Feel free to contact me. Click the below contact me button.</p>
